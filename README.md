@@ -17,7 +17,3 @@ The snippets are organized by category and include a description of what each fu
 ## Contributing
 
 Contributions are welcome! If you have a useful code snippet that you'd like to add to the collection, please create a pull request with your changes.
-
-## License
-
-WordPress Function Snippets is released under the MIT license. See the [LICENSE](LICENSE) file for more information.

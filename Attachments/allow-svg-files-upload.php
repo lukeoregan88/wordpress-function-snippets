@@ -20,7 +20,7 @@ add_filter(
     $upload_mimes['svg'] = 'image/svg+xml';
     $upload_mimes['svgz'] = 'image/svg+xml';
 
-    // FYI: You can add more mime types here. Just uncomment the lines below.
+    // FYI: You can add more mime types here. See example lines below.
     // $upload_mimes['docx'] = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
     // $upload_mimes['xlsx'] = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
 
@@ -53,13 +53,7 @@ add_filter(
         $type = false;
       }
 
-      //check docx, xlsx, pptx etc
-      // needs more work
-      // if ($type && 0 === strpos($type, 'application/') && 'docx' !== $ext) {
-      //   $ext = false;
-      //   $type = false;
-      // }
-
+      // If you want to add other mime types, you can do it here.
 
       $wp_check_filetype_and_ext = compact('ext', 'type', 'proper_filename');
     }
